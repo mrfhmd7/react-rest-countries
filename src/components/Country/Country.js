@@ -4,10 +4,13 @@ import './Country.css'
 const Country = (props) => {
      return (
           <div className='country'>
-               <h1>Country: {props.name}</h1>
-               <h3>Capital: {props.capital}</h3>
-               <h4>Population: {props.population}</h4>
-               <h4>Continent: {props.region}</h4>
+               <div>
+                    <h1>Country: {props.name}</h1>
+                    <h3>Capital: {props.capital}</h3>
+                    <h5>Continent: {props.region}</h5>
+                    <p>Population: {props.population}</p>
+                    <p><small>Area: {props.area} km²</small></p>
+               </div>
                <img src={props.flags} alt="" />
           </div>
      );
