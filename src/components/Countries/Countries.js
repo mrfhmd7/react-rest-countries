@@ -11,7 +11,7 @@ const Countries = () => {
      }, [])
      return (
           <div>
-               <h1>Hellos From Countries !!</h1>
+               <h2>Hellos From Countries !!</h2>
                <p>Total country: {countries.length}</p>
                <div className='countries-container'>
                     {
