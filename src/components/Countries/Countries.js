@@ -16,12 +16,13 @@ const Countries = () => {
                <div className='countries'>
                     {
                          countries.map(country => <Country
-                              name={country.name.common}
+                              country={country}
+                              /* name={country.name.common}
                               capital={country.capital}
                               population={country.population}
                               region={country.region}
                               flags={country.flags.png}
-                              area={country.area}>
+                              area={country.area} */>
                          </Country>)
                     }
                </div>
